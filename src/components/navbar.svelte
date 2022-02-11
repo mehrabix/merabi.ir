@@ -1,34 +1,54 @@
 <script>
-	const NavToggle = () =>{
-		console.log("toggle");
-		document.getElementById("nav").classList.toggle("invisible");
-	}
+	let _navbarToggle = false;
+	const NavToggle = () => {
+		if (!_navbarToggle) {
+			_navbarToggle = true;
+		} else {
+			_navbarToggle = false;
+		}
+	};
 </script>
-<div class="flex justify-between items-start lg:items-center  text-white">
-	<div class="flex w-full md:w-11/12 mt-2  flex-col lg:items-center lg:flex-row">
-		<div on:click="{NavToggle}" class="h-11 w-11 cursor-pointer xl:hidden">
+
+<div class="flex justify-between items-start lg:items-center  text-white lg:p-4">
+	<div class="flex   flex-col lg:items-center lg:flex-row w-full md:w-10/12">
+		<div on:click={NavToggle} class="h-11 w-11 z-50 cursor-pointer lg:hidden m-4 mt-6 mr-8">
 			<img class="h-10" src="/assets/images/menu.svg" alt="" />
 		</div>
-		<ul id="nav" class=" invisible flex w-full lg:w-8/12 h-[86vh] items-center lg:h-auto justify-around font-Merriweather-Black flex-col lg:flex-row">
-			<li class="w-32 h-8 flex justify-center items-center transition-all ease-linear duration-150 hover:bg-[#e72065]">
-				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a href="#">About</a>
-			</li>
-			<li class="w-32 h-8 flex justify-center items-center transition-all ease-linear duration-150 hover:bg-[#e72065]">
-				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a href="#">Writing</a>
-			</li>
-			<li class="w-32 h-8 flex justify-center items-center transition-all ease-linear duration-150 hover:bg-[#e72065]">
-				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a href="#">Portfoloo</a>
-			</li>
-			<li class="w-32 h-8 flex justify-center items-center transition-all ease-linear duration-150 hover:bg-[#e72065]">
-				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a href="#">Resume</a>
-			</li>
-		</ul>
+		<div class="absolute w-full lg:relative bg-[#00000057] lg:bg-transparent">
+			<ul
+				id="nav"
+				class="  lg:visible transition-all  lg:mt-auto  flex {_navbarToggle
+					? 'h-[100vh]'
+					: 'invisible h-0'}   w-full lg:w-8/12  items-center lg:h-auto justify-evenly font-Merriweather-Black flex-col lg:flex-row"
+			>
+				<li
+					class="w-32 h-8 flex justify-center items-center transition-all ease-linear duration-150 hover:bg-[#e720667e]"
+				>
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<a href="#">About</a>
+				</li>
+				<li
+					class="w-32 h-8 flex justify-center items-center transition-all ease-linear duration-150 hover:bg-[#e720667e]"
+				>
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<a href="#">Writing</a>
+				</li>
+				<li
+					class="w-32 h-8 flex justify-center items-center transition-all ease-linear duration-150 hover:bg-[#e720667e]"
+				>
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<a href="#">Portfolio</a>
+				</li>
+				<li
+					class="w-32 h-8 flex justify-center items-center transition-all ease-linear duration-150 hover:bg-[#e720667e]"
+				>
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<a href="#">Resume</a>
+				</li>
+			</ul>
+		</div>
 	</div>
-	<div class="w-[9rem] h-10 border-2 border-white rounded-md absolute left-8 xl:relative mt-3">
+	<div class="w-[9rem] h-10 border-2 border-white rounded-md absolute left-8 xl:relative m-4 mt-7">
 		<div class="w-[9rem] h-10 border-2 border-white rounded-md absolute -top-2 -left-2">
 			<div
 				dir="ltr"
