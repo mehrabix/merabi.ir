@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: Merriweather-Black;
+    src: url(/assets/fonts/Merriweather-Black.ttf);
+}
+@font-face {
+    font-family: Merriweather-BlackItalic;
+    src: url(/assets/fonts/Merriweather-BlackItalic.ttf);
+}
+@font-face {
+    font-family: Merriweather-Bold;
+    src: url(/assets/fonts/Merriweather-Bold.ttf);
+}
+@font-face {
+    font-family: Merriweather-BoldItalic;
+    src: url(/assets/fonts/Merriweather-BoldItalic.ttf);
+}
+@font-face {
+    font-family: Merriweather-Italic;
+    src: url(/assets/fonts/Merriweather-Italic.ttf);
+}
+@font-face {
+    font-family: Merriweather-Light;
+    src: url(/assets/fonts/Merriweather-Light.ttf);
+}
+
+@font-face {
+    font-family: Merriweather-LightItalic;
+    src: url(/assets/fonts/Merriweather-LightItalic.ttf);
+}
+@font-face {
+    font-family: Merriweather-Regular;
+    src: url(/assets/fonts/Merriweather-Regular.ttf);
+}
+body{
+    font-family: Merriweather-Regular;
+}
