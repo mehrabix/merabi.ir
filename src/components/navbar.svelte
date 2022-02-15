@@ -23,7 +23,7 @@
 										hover:bg-slate-50 cursor-pointer text-white hover:text-black rounded-tl-md
 										rounded-br-md absolute ">
 										<div class="relative flex justify-center items-center h-full">
-											<h1 class="text-xs font-mono">{'{() => MERABi}'}</h1>
+											<h1 class="text-xs font-bold font-mono">{'{() => MERABi}'}</h1>
 										</div>
 									</div>
 								</div>
@@ -83,6 +83,12 @@
 						hover:bg-[#e720667e]">
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a href="#">Resume</a>
+					</li>
+					<li
+						class="w-32 h-8 flex justify-center items-center transition-all ease-linear duration-150
+						hover:bg-[#e720667e]">
+						<!-- svelte-ignore a11y-invalid-attribute -->
+						<a href="#">Contact</a>
 					</li>
 				</ul>
 			</div>

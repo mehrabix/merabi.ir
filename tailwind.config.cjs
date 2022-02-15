@@ -11,6 +11,7 @@ module.exports = {
         "Merriweather-BoldItalic": ["Merriweather-BoldItalic"],
         "Merriweather-LightItalic": ["Merriweather-LightItalic"],
         "Merriweather-BlackItalic": ["Merriweather-BlackItalic"],
+        
       },
         
     }

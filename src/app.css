@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 @font-face {
     font-family: Merriweather-Black;
     src: url(/assets/fonts/Merriweather-Black.ttf);
@@ -36,6 +37,11 @@
     font-family: Merriweather-Regular;
     src: url(/assets/fonts/Merriweather-Regular.ttf);
 }
+
+
 body{
     font-family: Merriweather-Regular;
 }
+
+
+ 
