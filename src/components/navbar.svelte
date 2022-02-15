@@ -1,8 +1,20 @@
+<script>
+	let isToggled = false;
+
+	const handleToggleNav = () =>{
+		
+		isToggled = !isToggled;
+
+	}
+
+
+</script>
+
 <div class="px-5 pt-5">
 	<div class=" flex justify-between items-start ">
 		<div class="flex justify-between items-center w-full flex-col lg:flex-row flex-wrap">
 			<div class="w-full lg:w-auto flex flex-row-reverse  justify-between">
-				<button><img class="h-10 mt-1 lg:hidden" src="/assets/images/menu.svg" alt="" /></button>
+				<button on:click={handleToggleNav}><img class="h-10 mt-1 lg:hidden" src="/assets/images/menu.svg" alt="" /></button>
 				<div class="flex">
 					<div class="flex w-[24vh] justify-between">
 						<div class="w-28 h-10 border-2 border-white rounded-lg relative">
@@ -52,8 +64,8 @@
 				
 				</div>
 			</div>
-			<div class="text-white mt-5 lg:mt-0  lg:w-auto flex items-center justify-center h-0 lg:h-auto overflow-hidden w-full">
-				<ul class="flex flex-col lg:flex-row items-center w-full">
+			<div class="text-white  lg:mt-0 {isToggled ? "mt-10" : "h-0 mt-0"}  lg:w-auto flex items-center transition-all overflow-hidden justify-center  lg:h-auto  w-full">
+				<ul class="flex flex-col lg:flex-row items-center gap-y-5 w-full">
 					<li
 						class="w-32 h-8 flex justify-center items-center transition-all ease-linear duration-150 hover:bg-[#e720667e]"
 					>
