@@ -64,7 +64,7 @@
 				
 				</div>
 			</div>
-			<div class="text-white  lg:mt-0 {isToggled ? "mt-10 " : "h-0 mt-0 "}  lg:w-auto flex ease-linear duration-100 items-center transition-all overflow-hidden justify-center  lg:h-auto  w-full">
+			<div class="text-white  lg:mt-0 {isToggled ? "mt-10 pb-10 " : "h-0 mt-0 "}  lg:w-auto flex ease-linear duration-100 items-center transition-all overflow-hidden justify-center  lg:h-auto  w-full">
 				<ul class="flex flex-col lg:flex-row items-center gap-y-5 w-full">
 					<li
 						class="w-32 h-8 flex justify-center items-center transition-all ease-linear duration-150 hover:bg-[#e720667e]"
