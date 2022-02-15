@@ -15,8 +15,8 @@
 		<div class="flex justify-between items-center w-full flex-col lg:flex-row flex-wrap">
 			<div class="w-full lg:w-auto flex flex-row-reverse  justify-between">
 				<button on:click={handleToggleNav}><img class="h-10 mt-1 lg:hidden" src="/assets/images/menu.svg" alt="" /></button>
-				<div class="flex">
-					<div class="flex w-[24vh] justify-between">
+				<div class="flex w-[24vh] items-center">
+					<div class="flex w-[24vh] justify-between items-center">
 						<div class="w-28 h-10 border-2 border-white rounded-lg relative">
 							<div class="w-28 h-10 border-2 border-white rounded-lg  left-1 absolute  top-1">
 								<div class="relative">
@@ -31,7 +31,7 @@
 							</div>
 						</div>
 					</div>
-					<button class="  mt-1 focus:text-yellow-600 text-white"
+					<button class="  mt-1 focus:text-yellow-600 focus:rotate-90 transition-all text-white"
 						><svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="24"
