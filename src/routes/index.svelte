@@ -2,7 +2,7 @@
 
 <div class="flex flex-col mt-9 justify-center gap-9 items-center lg:flex-row px-6">
 	<img
-		class="w-60 rounded-full"
+		class="w-60 rounded-full cursor-pointer hover:opacity-75 transition-all duration-1000 ease-in-out hover:rotate-[360deg]"
 		src="/static/assets/images/ahmad-mehrabi.jpg"
 		alt="Ahmad Mehrabi" />
 	<div class="flex flex-col gap-y-3 items-center justify-center text-center">
