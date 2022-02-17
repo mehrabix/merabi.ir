@@ -97,7 +97,7 @@
 				</svg>
 
 			</a>
-			<a href="https://t.me/ahmadmehrabix">
+			<a href="https://github.com/mehrabix">
 
 				<svg
 					class="fill-white hover:fill-[#000] transition-all duration-300 ease-in-out"
