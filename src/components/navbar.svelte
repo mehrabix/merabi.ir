@@ -32,7 +32,7 @@
 							</div>
 						</div>
 						<button
-							class=" rotate-[332deg] ml-2 focus:translate-y-[13px] translate-y-[8px] transition-all
+							class=" rotate-[333deg] ml-2 focus:translate-y-[13px] translate-y-[8px] transition-all
 							fill-white focus:fill-yellow-300">
 							<svg
 								class="
