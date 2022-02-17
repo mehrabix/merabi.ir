@@ -10,7 +10,7 @@
 	<div class="px-5 ">
 		<div class=" flex justify-between items-start bg-[#1d1d1de1] ">
 			<div class="flex justify-between items-center w-full flex-col lg:flex-row flex-wrap">
-				<div class="w-full lg:w-auto flex flex-row-reverse justify-between px-5 py-3">
+				<div class="w-full lg:w-auto flex flex-row-reverse justify-between px-3 py-3">
 					<button on:click={handleToggleNav}>
 						<img class="h-10 mt-1 lg:hidden" src="/assets/images/menu.svg" alt="" />
 					</button>
