@@ -4,7 +4,7 @@
 	<div class="relative hover:opacity-75 transition-all duration-1000 ease-in-out">
 		<img
 			class="w-60 rounded-full    "
-			src="/static/assets/images/ahmad-mehrabi.jpg"
+			src="assets/images/ahmad-mehrabi.jpg"
 			alt="Ahmad Mehrabi" />
 		<div class="absolute w-full h-full border-x-4 top-0 rounded-full border-black animate-pulse" />
 	</div>
