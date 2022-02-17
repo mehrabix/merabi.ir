@@ -6,7 +6,7 @@
 	let isDarkMode = false;
 
 	onMount(async () => {
-		if(localStorage.getItem('darkMode') == 'true') {
+		if(localStorage.getItem('darkMode') == 'false') {
 			isDarkMode = true;
 			document.body.classList.add('dark-mode');
 		}	
@@ -17,9 +17,12 @@
 	};
 
 	const handleDarkModeToggle = () => {
-		localStorage.setItem('darkMode', 'true');
+		localStorage.setItem('darkMode', 'false');
 		isDarkMode = !isDarkMode;
 		document.getElementsByTagName('html')[0].classList.toggle('dark');
+		if(!isDarkMode){
+			localStorage.setItem('darkMode', 'true');
+		}
 	}
 
 	
