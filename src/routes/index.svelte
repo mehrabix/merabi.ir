@@ -1,11 +1,10 @@
 <!-- <h1>This is index</h1> -->
 
-<div style="height: calc(100vh - 145px);" class="flex flex-col mt-9 justify-center gap-9  items-center lg:flex-row px-6">
+<div
+	style="height: calc(100vh - 77px);"
+	class="flex flex-col justify-center mb-10 lg:my-auto gap-9 items-center lg:flex-row px-6">
 	<div class="relative hover:opacity-75 transition-all duration-1000 ease-in-out">
-		<img
-			class="w-60 rounded-full    "
-			src="assets/images/ahmad-mehrabi.jpg"
-			alt="Ahmad Mehrabi" />
+		<img class="w-60 rounded-full " src="assets/images/ahmad-mehrabi.jpg" alt="Ahmad Mehrabi" />
 		<div class="absolute w-full h-full border-x-4 top-0 rounded-full border-black animate-pulse" />
 	</div>
 	<div class="flex flex-col gap-y-3 items-center justify-center text-center">
@@ -120,6 +119,23 @@
 		</div>
 	</div>
 </div>
-<div class="flex pt-9  px-[12%]">
-	<h6 class="text-white text-3xl">What tools have I used so far?</h6>
+<div class=" px-[12%] py-5 bg-[#161616] ">
+	<h6 class="text-white text-2xl font-bold">What tools have I used so far?</h6>
+	<div class="flex flex-col">
+		<h5 class="text-green-400 text-xl mt-7">Editor/IDEs</h5>
+		<div class="flex flex-wrap gap-5 mt-7">
+			<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/vim.svg" />
+			</div>
+			<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/vscode.svg" />
+			</div>
+			<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/sublime.svg" />
+			</div>
+			<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/emacs.svg" />
+			</div>
+		</div>
+	</div>
 </div>
