@@ -43,5 +43,6 @@ body{
     font-family: Merriweather-Regular;
 }
 
-
- 
+button{
+    all: unset
+}
