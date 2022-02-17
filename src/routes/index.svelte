@@ -119,8 +119,11 @@
 		</div>
 	</div>
 </div>
-<div class=" px-[12%] py-5 bg-[#161616] ">
-	<div><h6 class="text-white text-2xl font-bold">What tools have I used so far?</h6>
+<div class=" px-[12%] py-20 bg-[#161616] ">
+	<div><div class="flex items-center gap-x-5 pb-10 justify-center">
+		<div class="w-12 h-2 bg-[#8f8f8f] "></div>
+		<h6 class="text-white text-2xl font-bold">What tools have I used so far?</h6>
+	</div>
 		<div class="flex flex-col">
 			<h5 class="text-green-400 text-xl mt-7">Editor/IDEs</h5>
 			<div class="flex flex-wrap justify-around md:justify-start gap-5 mt-7">
