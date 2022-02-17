@@ -10,7 +10,7 @@
 	<div class=" flex justify-between items-start ">
 		<div class="flex justify-between items-center w-full flex-col lg:flex-row flex-wrap">
 			<div class="w-full lg:w-auto flex flex-row-reverse justify-between">
-				<button on:click={handleToggleNav}>
+				<button  on:click={handleToggleNav}>
 					<img class="h-10 mt-1 lg:hidden" src="/assets/images/menu.svg" alt="" />
 				</button>
 				<div class="flex w-[24vh] items-center">
