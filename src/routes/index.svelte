@@ -1,6 +1,6 @@
 <!-- <h1>This is index</h1> -->
 
-<div class="flex flex-col mt-9 justify-center gap-9 items-center lg:flex-row px-6">
+<div style="height: calc(100vh - 145px);" class="flex flex-col mt-9 justify-center gap-9  items-center lg:flex-row px-6">
 	<div class="relative hover:opacity-75 transition-all duration-1000 ease-in-out">
 		<img
 			class="w-60 rounded-full    "
@@ -119,4 +119,7 @@
 			</a>
 		</div>
 	</div>
+</div>
+<div class="flex pt-9  px-[12%]">
+	<h6 class="text-white text-3xl">What tools have I used so far?</h6>
 </div>
