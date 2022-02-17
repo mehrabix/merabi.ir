@@ -120,22 +120,56 @@
 	</div>
 </div>
 <div class=" px-[12%] py-5 bg-[#161616] ">
-	<h6 class="text-white text-2xl font-bold">What tools have I used so far?</h6>
+	<div><h6 class="text-white text-2xl font-bold">What tools have I used so far?</h6>
+		<div class="flex flex-col">
+			<h5 class="text-green-400 text-xl mt-7">Editor/IDEs</h5>
+			<div class="flex flex-wrap justify-around md:justify-between gap-5 mt-7">
+				<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
+					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/vim.svg" />
+				</div>
+				<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
+					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/vscode.svg" />
+				</div>
+				<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
+					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/sublime.svg" />
+				</div>
+				<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
+					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/emacs.svg" />
+				</div>
+			</div>
+		</div></div>
+
+	<div>
 	<div class="flex flex-col">
-		<h5 class="text-green-400 text-xl mt-7">Editor/IDEs</h5>
-		<div class="flex flex-wrap gap-5 mt-7">
+		<h5 class="text-red-400 text-xl mt-7">Markup Languages/Style Sheets</h5>
+		<div class="flex flex-wrap justify-around md:justify-between gap-5 mt-7">
 			<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
-				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/vim.svg" />
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/html.svg" />
 			</div>
 			<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
-				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/vscode.svg" />
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/css3.svg" />
 			</div>
 			<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
-				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/sublime.svg" />
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/sass.svg" />
 			</div>
-			<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
-				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/emacs.svg" />
-			</div>
+		
 		</div>
+	</div>
+	<div class="flex flex-col">
+		<h5 class="text-blue-400 text-xl mt-7">Programming languages</h5>
+		<div class="flex flex-wrap justify-around md:justify-between gap-5 mt-7">
+			<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/js.svg" />
+			</div>
+			<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/ts.svg" />
+			</div>
+			<div class="bg-[#0e0e0e] rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/python.svg" />
+			</div>
+		
+		
+		</div>
+	</div>
 	</div>
 </div>
