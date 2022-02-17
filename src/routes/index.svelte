@@ -1,5 +1,7 @@
 <!-- <h1>This is index</h1> -->
-
+<head>
+	<title>Ahmad Mehrabi - Frontend Developer</title>
+</head>
 <div
 	style="height: calc(100vh - 77px);"
 	class="flex flex-col justify-center mb-10 lg:my-auto gap-9 items-center lg:flex-row px-6">
