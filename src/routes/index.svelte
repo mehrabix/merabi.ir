@@ -169,5 +169,56 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="flex flex-col">
+		<h5 class="text-pink-400 text-xl mt-7">Css Library/Frameworks</h5>
+		<div class="flex flex-wrap justify-around md:justify-start gap-5 mt-7">
+			<div class="bg-[#0e0e0e] hover:bg-emerald-300 rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/tailwind.svg" />
+			</div>
+			<div class="bg-[#0e0e0e] hover:bg-emerald-300 rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/windicss.svg" />
+			</div>
+		</div>
+	</div>
+	<div class="flex flex-col">
+		<h5 class="text-lime-400 text-xl mt-7">Ui Kit Frameworks</h5>
+		<div class="flex flex-wrap justify-around md:justify-start gap-5 mt-7">
+			<div class="bg-[#0e0e0e] hover:bg-emerald-300 rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/muiangular.svg" />
+			</div>
+			<div class="bg-[#0e0e0e] hover:bg-emerald-300 rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/mui.svg" />
+			</div>
+			<div class="bg-[#0e0e0e] hover:bg-emerald-300 rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/bootstrap.svg" />
+			</div>
+			<div class="bg-[#0e0e0e] hover:bg-emerald-300 rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/headlessui.svg" />
+			</div>
+			
+		</div>
+	</div>
+	<div class="flex flex-col">
+		<h5 class="text-amber-400 text-xl mt-7">Javascript Library And Frameworks</h5>
+		<div class="flex flex-wrap justify-around md:justify-start gap-5 mt-7">
+			<div class="bg-[#0e0e0e] hover:bg-emerald-300 rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/react.svg" />
+			</div>
+			<div class="bg-[#0e0e0e] hover:bg-emerald-300 rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4 filter invert" alt="vim" src="assets/images/nextjs.svg" />
+			</div>
+			<div class="bg-[#0e0e0e] hover:bg-emerald-300 rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/svelte.svg" />
+			</div>
+			<div class="bg-[#0e0e0e] hover:bg-emerald-300 rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4 " alt="vim" src="assets/images/sveltekit.svg" />
+			</div>
+			<div class="bg-[#0e0e0e] hover:bg-emerald-300 rounded-3xl shadow-md">
+				<img class="h-24 lg:h-44 p-4 " alt="vim" src="assets/images/angular.svg" />
+			</div>
+			
+		</div>
+	</div>
 	</div>
 </div>
