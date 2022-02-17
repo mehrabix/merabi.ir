@@ -1,14 +1,33 @@
 <script>
+
+	import { onMount } from 'svelte'
+
 	let isToggled = false;
+	let isDarkMode = false;
+
+	onMount(async () => {
+		if(localStorage.getItem('darkMode') == 'true') {
+			isDarkMode = true;
+			document.body.classList.add('dark-mode');
+		}	
+	});
 
 	const handleToggleNav = () => {
 		isToggled = !isToggled;
 	};
+
+	const handleDarkModeToggle = () => {
+		localStorage.setItem('darkMode', 'true');
+		isDarkMode = !isDarkMode;
+		document.getElementsByTagName('html')[0].classList.toggle('dark');
+	}
+
+	
 </script>
 
 <div class="sticky top-0 z-50">
 	<div class="px-5 ">
-		<div class=" flex justify-between items-start bg-[#1d1d1de1] ">
+		<div class=" flex justify-between items-start bg-[#1d1d1de1] dark:bg-[#cfcfcf]  ">
 			<div class="flex justify-between items-center w-full flex-col lg:flex-row flex-wrap">
 				<div class="w-full lg:w-auto flex flex-row-reverse justify-between px-3 py-3">
 					<button on:click={handleToggleNav}>
@@ -32,8 +51,9 @@
 							</div>
 						</div>
 						<button
-							class=" rotate-[333deg] ml-2 focus:translate-y-[13px] translate-y-[8px] transition-all
-							fill-white focus:fill-yellow-300">
+							on:click="{handleDarkModeToggle}"
+							class=" rotate-[333deg] ml-2  translate-y-[8px] transition-all
+							fill-white {isDarkMode ? "fill-yellow-300 translate-y-[13px]" : ""}">
 							<svg
 								class="
 								"
@@ -68,37 +88,37 @@
 					</div>
 				</div>
 				<div
-					class="text-white  lg:mt-0 {isToggled ? 'mt-10 pb-10 lg:pb-0 lg:mt-0 ' : 'h-0 mt-0 '}
+					class="text-white lg:mt-0 {isToggled ? 'mt-10 pb-10 lg:pb-0 lg:mt-0 ' : 'h-0 mt-0 '}
 					lg:w-auto flex ease-linear duration-100 items-center transition-all overflow-hidden
 					justify-center lg:h-auto w-full">
 					<ul class="flex flex-col lg:flex-row items-center gap-y-5 w-full">
 						<li
-							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all ease-linear
-							duration-150 hover:bg-[#e720667e]">
+							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all
+							ease-linear duration-150 hover:bg-[#e720667e]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">About</a>
 						</li>
 						<li
-							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all ease-linear
-							duration-150 hover:bg-[#e720667e]">
+							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all
+							ease-linear duration-150 hover:bg-[#e720667e]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">Writing</a>
 						</li>
 						<li
-							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all ease-linear
-							duration-150 hover:bg-[#e720667e]">
+							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all
+							ease-linear duration-150 hover:bg-[#e720667e]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">Portfolio</a>
 						</li>
 						<li
-							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all ease-linear
-							duration-150 hover:bg-[#e720667e]">
+							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all
+							ease-linear duration-150 hover:bg-[#e720667e]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">Resume</a>
 						</li>
 						<li
-							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all ease-linear
-							duration-150 hover:bg-[#e720667e]">
+							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all
+							ease-linear duration-150 hover:bg-[#e720667e]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">Contact</a>
 						</li>
