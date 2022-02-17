@@ -73,31 +73,31 @@
 					justify-center lg:h-auto w-full">
 					<ul class="flex flex-col lg:flex-row items-center gap-y-5 w-full">
 						<li
-							class="w-32 h-8 flex justify-center items-center transition-all ease-linear
+							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all ease-linear
 							duration-150 hover:bg-[#e720667e]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">About</a>
 						</li>
 						<li
-							class="w-32 h-8 flex justify-center items-center transition-all ease-linear
+							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all ease-linear
 							duration-150 hover:bg-[#e720667e]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">Writing</a>
 						</li>
 						<li
-							class="w-32 h-8 flex justify-center items-center transition-all ease-linear
+							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all ease-linear
 							duration-150 hover:bg-[#e720667e]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">Portfolio</a>
 						</li>
 						<li
-							class="w-32 h-8 flex justify-center items-center transition-all ease-linear
+							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all ease-linear
 							duration-150 hover:bg-[#e720667e]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">Resume</a>
 						</li>
 						<li
-							class="w-32 h-8 flex justify-center items-center transition-all ease-linear
+							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all ease-linear
 							duration-150 hover:bg-[#e720667e]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">Contact</a>
