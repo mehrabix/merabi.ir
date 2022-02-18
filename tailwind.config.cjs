@@ -14,6 +14,9 @@ module.exports = {
         "Merriweather-BlackItalic": ["Merriweather-BlackItalic"],
         
       },
+      spacing: {
+        'hero': 'calc(100vh - 77px)',
+      }
         
     }
   },
