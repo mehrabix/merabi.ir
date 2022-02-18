@@ -1,17 +1,15 @@
 <script>
-
-	import { onMount } from 'svelte'
+	import { onMount } from 'svelte';
 
 	let isToggled = false;
 	let isDarkMode = false;
 
 	onMount(async () => {
-		if(localStorage.getItem('darkMode') == 'true') {
+		if (localStorage.getItem('darkMode') == 'true') {
 			isDarkMode = false;
 			document.getElementsByTagName('html')[0].classList.toggle('dark');
-		}	
-		else{
-			isDarkMode = true
+		} else if (localStorage.getItem('darkMode') == 'false') {
+			isDarkMode = true;
 			document.getElementsByTagName('html')[0].classList.toggle('light');
 		}
 	});
@@ -24,31 +22,36 @@
 		localStorage.setItem('darkMode', 'false');
 		isDarkMode = !isDarkMode;
 		document.getElementsByTagName('html')[0].classList.toggle('dark');
-		if(!isDarkMode){
+		if (!isDarkMode) {
 			localStorage.setItem('darkMode', 'true');
 		}
-	}
-
-	
+	};
 </script>
 
 <div class="sticky top-0 z-50">
 	<div class=" ">
-		<div class=" flex justify-between items-start bg-[#1d1d1de1] dark:bg-[#99f5b057]   ">
+		<div class=" flex justify-between items-start bg-[#1d1d1de1] dark:bg-[#99f5b057] ">
 			<div class="flex justify-between items-center w-full flex-col lg:flex-row flex-wrap">
 				<div class="w-full lg:w-auto flex flex-row-reverse justify-between px-3 py-3">
 					<button on:click={handleToggleNav}>
-						<img class="h-10 mt-1 lg:hidden dark:filter dark:invert" src="/assets/images/menu.svg" alt="" />
+						<img
+							class="h-10 mt-1 lg:hidden dark:filter dark:invert"
+							src="/assets/images/menu.svg"
+							alt="" />
 					</button>
 					<div class="flex w-[24vh] items-center">
 						<div class="flex w-[24vh] justify-between items-center">
-							<div class="w-28 h-10 border-2 border-white  dark:border-[#ffa264] rounded-lg relative">
-								<div class="w-28 h-10 border-2 border-white dark:border-[#ffa264] rounded-lg left-1 absolute top-1">
+							<div
+								class="w-28 h-10 border-2 border-white dark:border-[#ffa264] rounded-lg relative">
+								<div
+									class="w-28 h-10 border-2 border-white dark:border-[#ffa264] rounded-lg left-1
+									absolute top-1">
 									<div class="relative">
 										<div
 											class=" right-1 w-[106px] -mt-[1px] h-8 transition-all ease-linear
-											duration-200 hover:bg-slate-50 dark:hover:bg-[#ff7b7b] cursor-pointer text-white dark:text-black hover:text-black
-											rounded-tl-md rounded-br-md absolute ">
+											duration-200 hover:bg-slate-50 dark:hover:bg-[#ff7b7b] cursor-pointer
+											text-white dark:text-black hover:text-black rounded-tl-md rounded-br-md
+											absolute ">
 											<div class="relative flex justify-center items-center h-full">
 												<h1 class="text-xs font-bold font-mono">{'{() => MERABi}'}</h1>
 											</div>
@@ -58,9 +61,8 @@
 							</div>
 						</div>
 						<button
-							on:click="{handleDarkModeToggle}"
-							class=" rotate-[333deg] ml-2  translate-y-[8px] transition-all
-							 {isDarkMode ? "fill-yellow-300 translate-y-[13px]" : "fill-slate-400"}">
+							on:click={handleDarkModeToggle}
+							class=" rotate-[333deg] ml-2 translate-y-[8px] transition-all {isDarkMode ? 'fill-yellow-300 translate-y-[13px]' : 'fill-slate-400'}">
 							<svg
 								class="
 								"
