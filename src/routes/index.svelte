@@ -4,7 +4,7 @@
 </head>
 <div
 	style="height: calc(100vh - 77px);"
-	class="flex flex-col justify-center my-10 lg:my-auto lg:my-auto gap-9 items-center lg:flex-row px-6">
+	class="flex flex-col justify-center my-8 lg:my-auto  gap-9 items-center lg:flex-row px-6">
 	<div class="relative hover:opacity-75 transition-all duration-1000 ease-in-out">
 		<img class="w-60 rounded-full " src="assets/images/ahmad-mehrabi.jpg" alt="Ahmad Mehrabi" />
 		<div class="absolute w-full h-full border-x-4 top-0 rounded-full border-black animate-pulse" />
