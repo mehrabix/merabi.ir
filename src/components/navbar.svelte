@@ -8,7 +8,6 @@
 	onMount(async () => {
 		if(localStorage.getItem('darkMode') == 'false') {
 			isDarkMode = true;
-			document.body.classList.add('dark-mode');
 		}	
 	});
 
