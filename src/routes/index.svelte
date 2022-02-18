@@ -6,12 +6,12 @@
 	style="height: calc(100vh - 77px);"
 	class="flex flex-col justify-center   gap-9 items-center lg:flex-row px-6">
 	<div class="relative hover:opacity-75 transition-all duration-1000 ease-in-out">
-		<img class="w-60 rounded-full " src="assets/images/ahmad-mehrabi.jpg" alt="Ahmad Mehrabi" />
+		<img class="w-48 lg:w-56 rounded-full " src="assets/images/ahmad-mehrabi.jpg" alt="Ahmad Mehrabi" />
 		<div class="absolute w-full h-full border-x-4 top-0 rounded-full border-black animate-pulse" />
 	</div>
 	<div class="flex flex-col gap-y-3 items-center justify-center text-center">
 		<div
-			class="text-white dark:text-[#ff9557] leading-snug font-black text-5xl flex flex-wrap gap-x-4 items-center
+			class="text-white dark:text-[#ff9557] leading-snug font-black text-4xl lg:text-5xl flex flex-wrap gap-x-4 items-center
 			justify-center ">
 			<p>Hi, I'm</p>
 			<h1>Ahmad Mehrabi</h1>
