@@ -55,7 +55,7 @@
 						<button
 							on:click="{handleDarkModeToggle}"
 							class=" rotate-[333deg] ml-2  translate-y-[8px] transition-all
-							fill-white {isDarkMode ? "fill-yellow-300 translate-y-[13px]" : ""}">
+							 {isDarkMode ? "fill-yellow-300 translate-y-[13px]" : "fill-slate-400"}">
 							<svg
 								class="
 								"
