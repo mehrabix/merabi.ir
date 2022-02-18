@@ -113,16 +113,16 @@ height="35px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmln
 		<div class="flex flex-col">
 			<h5 class="text-green-400 text-xl mt-7">Editor/IDEs</h5>
 			<div class="flex flex-wrap justify-around md:justify-start gap-5 mt-7">
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/vim.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/vscode.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/sublime.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/emacs.svg" />
 				</div>
 			</div>
@@ -133,13 +133,13 @@ height="35px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmln
 		<div class="flex flex-col">
 			<h5 class="text-red-400 text-xl mt-7">Markup Languages/Style Sheets</h5>
 			<div class="flex flex-wrap justify-around md:justify-start gap-5 mt-7">
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/html.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/css3.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/sass.svg" />
 				</div>
 
@@ -148,13 +148,13 @@ height="35px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmln
 		<div class="flex flex-col">
 			<h5 class="text-blue-400 text-xl mt-7">Programming languages</h5>
 			<div class="flex flex-wrap justify-around md:justify-start gap-5 mt-7">
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/js.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/ts.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/python.svg" />
 				</div>
 			</div>
@@ -163,10 +163,10 @@ height="35px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmln
 		<div class="flex flex-col">
 			<h5 class="text-pink-400 text-xl mt-7">Css Library/Frameworks</h5>
 			<div class="flex flex-wrap justify-around md:justify-start gap-5 mt-7">
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/tailwind.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/windicss.svg" />
 				</div>
 			</div>
@@ -174,16 +174,16 @@ height="35px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmln
 		<div class="flex flex-col">
 			<h5 class="text-lime-400 text-xl mt-7">Ui Kit Frameworks</h5>
 			<div class="flex flex-wrap justify-around md:justify-start gap-5 mt-7">
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/muiangular.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/mui.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/bootstrap.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/headlessui.svg" />
 				</div>
 
@@ -192,19 +192,19 @@ height="35px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmln
 		<div class="flex flex-col">
 			<h5 class="text-amber-400 text-xl mt-7">Javascript Library And Frameworks</h5>
 			<div class="flex flex-wrap justify-around md:justify-start gap-5 mt-7">
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/react.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4 filter invert" alt="vim" src="assets/images/nextjs.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4" alt="vim" src="assets/images/svelte.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4 " alt="vim" src="assets/images/sveltekit.svg" />
 				</div>
-				<div class="bg-[#0e0e0e] dark:bg-pink-800 dark:hover:bg-pink-300 hover:bg-emerald-300 rounded-3xl shadow-md">
+				<div class="bg-[#0e0e0e] dark:bg-pink-300 dark:hover:bg-pink-800 hover:bg-emerald-300 rounded-3xl shadow-md">
 					<img class="h-24 lg:h-44 p-4 " alt="vim" src="assets/images/angular.svg" />
 				</div>
 
