@@ -29,7 +29,7 @@
 
 <div class="sticky top-0 z-50">
 	<div class="px-5 ">
-		<div class=" flex justify-between items-start bg-[#1d1d1de1]   ">
+		<div class=" flex justify-between items-start bg-[#1d1d1de1] dark:bg-[#99f5b057]   ">
 			<div class="flex justify-between items-center w-full flex-col lg:flex-row flex-wrap">
 				<div class="w-full lg:w-auto flex flex-row-reverse justify-between px-3 py-3">
 					<button on:click={handleToggleNav}>
@@ -37,12 +37,12 @@
 					</button>
 					<div class="flex w-[24vh] items-center">
 						<div class="flex w-[24vh] justify-between items-center">
-							<div class="w-28 h-10 border-2 border-white rounded-lg relative">
-								<div class="w-28 h-10 border-2 border-white rounded-lg left-1 absolute top-1">
+							<div class="w-28 h-10 border-2 border-white  dark:border-[#ffa264] rounded-lg relative">
+								<div class="w-28 h-10 border-2 border-white dark:border-[#ffa264] rounded-lg left-1 absolute top-1">
 									<div class="relative">
 										<div
 											class=" right-1 w-[106px] -mt-[1px] h-8 transition-all ease-linear
-											duration-200 hover:bg-slate-50 cursor-pointer text-white hover:text-black
+											duration-200 hover:bg-slate-50 dark:hover:bg-[#ff7b7b] cursor-pointer text-white dark:text-black hover:text-black
 											rounded-tl-md rounded-br-md absolute ">
 											<div class="relative flex justify-center items-center h-full">
 												<h1 class="text-xs font-bold font-mono">{'{() => MERABi}'}</h1>
@@ -90,37 +90,37 @@
 					</div>
 				</div>
 				<div
-					class="text-white lg:mt-0 {isToggled ? 'mt-10 pb-10 lg:pb-0 lg:mt-0 ' : 'h-0 mt-0 '}
+					class="text-white dark:text-gray-600 lg:pr-5 lg:mt-0 {isToggled ? 'mt-10 pb-10 lg:pb-0 lg:mt-0 ' : 'h-0 mt-0 '}
 					lg:w-auto flex ease-linear duration-100 items-center transition-all overflow-hidden
 					justify-center lg:h-auto w-full">
 					<ul class="flex flex-col lg:flex-row items-center gap-y-5 w-full">
 						<li
 							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all
-							ease-linear duration-150 hover:bg-[#e720667e]">
+							ease-linear duration-150 hover:bg-[#e720667e] dark:hover:bg-[#45ffb8]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">About</a>
 						</li>
 						<li
 							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all
-							ease-linear duration-150 hover:bg-[#e720667e]">
+							ease-linear duration-150 hover:bg-[#e720667e] dark:hover:bg-[#45ffb8]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">Writing</a>
 						</li>
 						<li
 							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all
-							ease-linear duration-150 hover:bg-[#e720667e]">
+							ease-linear duration-150 hover:bg-[#e720667e] dark:hover:bg-[#45ffb8]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">Portfolio</a>
 						</li>
 						<li
 							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all
-							ease-linear duration-150 hover:bg-[#e720667e]">
+							ease-linear duration-150 hover:bg-[#e720667e] dark:hover:bg-[#45ffb8]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">Resume</a>
 						</li>
 						<li
 							class="w-32 h-8 flex cursor-pointer justify-center items-center transition-all
-							ease-linear duration-150 hover:bg-[#e720667e]">
+							ease-linear duration-150 hover:bg-[#e720667e] dark:hover:bg-[#45ffb8]">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a href="#">Contact</a>
 						</li>
