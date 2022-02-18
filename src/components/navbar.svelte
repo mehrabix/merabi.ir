@@ -28,7 +28,7 @@
 </script>
 
 <div class="sticky top-0 z-50">
-	<div class="px-5 ">
+	<div class=" ">
 		<div class=" flex justify-between items-start bg-[#1d1d1de1] dark:bg-[#99f5b057]   ">
 			<div class="flex justify-between items-center w-full flex-col lg:flex-row flex-wrap">
 				<div class="w-full lg:w-auto flex flex-row-reverse justify-between px-3 py-3">
