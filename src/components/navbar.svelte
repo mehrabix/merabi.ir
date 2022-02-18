@@ -5,6 +5,9 @@
 	let isDarkMode = false;
 
 	onMount(async () => {
+		let date = new Date()
+		let hour = date.getHours()
+		
 		if (localStorage.getItem('darkMode') == 'true') {
 			isDarkMode = false;
 			document.getElementsByTagName('html')[0].classList.toggle('dark');
@@ -12,6 +15,7 @@
 			isDarkMode = true;
 			document.getElementsByTagName('html')[0].classList.toggle('light');
 		}
+		
 	});
 
 	const handleToggleNav = () => {
